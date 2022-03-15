@@ -12,18 +12,26 @@
     </head>
 
     <body>
+        <!-- titolo e logo iniziali -->
         <header>
             <img id="logoimg" src="img/Logo.png" alt="logo boolean">
             <h1 id="logoname">Toboolist</h1>
         </header>
 
         <main>
+            <!-- parte di selezione della pagina -->
             <div class="button">
                 <input id="addtask" type="submit" value="Add Task">
                 <input id="addsection" type="submit" value="Add Section">
             </div>
-            <hr>            
+
+            <!-- divisore -->
+            <hr> 
+            <!-- inizio set di task -->
+
             <div class="set">
+
+                <!-- prima parte di task -->
                 <div class="taskset1">
                     <section class="menu">New Tasks</section>
                     <div class="task">
@@ -33,6 +41,7 @@
                     </div>
                 </div>
 
+                <!-- seconda parte di task -->
                 <div class="taskset2">
                     <section class="menu">Today</section>
                     <div class="task">
@@ -56,9 +65,32 @@
                         <span class="subject mobile">Mobile</span> 
                     </div>                    
                 </div>
+
+                <!-- terza parte di task -->
+                <div class="taskset3">
+                    <section class="menu">Upcoming</section>
+                    <div class="task">
+                        <span class="cross">&cross;</span> 
+                        <span class="tasktype">Schedule meeting with Alex</span> 
+                        <span class="subject recruiting">Recruiting</span> 
+                    </div>
+                    <div class="task">
+                        <span class="check">&check;</span> 
+                        <span class="tasktype">Homepage refresh</span> 
+                        <span class="subject website">Website</span> 
+                    </div>
+                    <div class="task">
+                        <span class="check">&check;</span> 
+                        <span class="tasktype">Onboard new Sales team members</span> 
+                        <span class="subject sales">Sales</span> 
+                    </div>
+                    <div class="task">
+                        <span class="check">&check;</span> 
+                        <span class="tasktype">Review editorial calendar</span> 
+                        <span class="subject editorial">Editorial</span> 
+                    </div>
+                </div>
             </div>
-
-
         </main>
     </body>
 

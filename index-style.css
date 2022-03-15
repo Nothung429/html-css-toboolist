@@ -1,0 +1,64 @@
+/* stile generale della pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 248, 249);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* stile del logo della pagina */
+header {
+    background-color: white;
+}
+
+#logoimg {
+    padding: 15px 0px 15px 20px;
+    vertical-align: middle;
+}
+
+#logoname {
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* stile del blocco centrale della pagina */
+main {
+    width: 800px;
+    height: 800px;
+    margin: 3% auto;
+    background-color: white;
+}
+
+/* stile dei pulsanti di add */
+.button {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#addtask {
+    padding: 5px;
+    background-color: rgb(71, 173, 241);
+    border-radius: 5px;
+    border: 1px solid rgb(71, 173, 241);
+    color: white;
+}
+
+#addsection {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+}
+
+/* stile elenco task */
+.task {
+    margin-top: 2px;
+    padding: 30px 40px;
+}

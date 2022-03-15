@@ -65,8 +65,8 @@ hr {
 
 /* stile elenco task */
 .set {
-    margin-top: 2px;
-    padding: 0px 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
     background-color: white;
 }
 
@@ -81,8 +81,14 @@ hr {
     font-weight: bold;
 }
 
-.menu::before {
-    content: "\25BC";
+.triangle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(68, 72, 81);
 }
 
 /* successo o insuccesso con check e cross */
@@ -112,16 +118,16 @@ hr {
 /* stile delle singole task */
 .tasktype {
     font-size: 16px;
-    font-weight: 550;
 }
 
 .subject {
     font-size: 10px;
     color: white;
-    border-radius: 20px;
-    padding: 6px;
+    border-radius: 10px;
+    padding: 4px 8px;    
 }
 
+/* colori singole task */
 .editorial {
     background-color: rgb(69, 171, 234);
     border: 1px solid rgb(69, 171, 234);
